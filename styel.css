@@ -197,3 +197,59 @@ main {
   color: #ff4a60;
   font-size: 14px;
 }
+
+/*-----------------
+ media quary add 
+---------- */
+/*-----------
+ media for mobile 768
+ -------------- */
+@media (min-width: 500px) and (max-width: 786px) {
+  .heading {
+    text-align: center;
+  }
+  .hero-player-item {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .player-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .bolg-container-item {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .bolg-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .course-container {
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+  }
+}
+
+/*-----------
+ media for mobile 480
+ -------------- */
+@media (max-width: 499px) {
+  .hero-player-item {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .player-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .bolg-container-item {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .bolg-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .course-container {
+    grid-template-columns: repeat(1, 1fr);
+    text-align: center;
+  }
+}
