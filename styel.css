@@ -233,6 +233,9 @@ main {
  media for mobile 480
  -------------- */
 @media (max-width: 499px) {
+  .heading {
+    text-align: center;
+  }
   .hero-player-item {
     grid-template-columns: repeat(1, 1fr);
   }
