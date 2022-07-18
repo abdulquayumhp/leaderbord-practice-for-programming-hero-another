@@ -69,6 +69,11 @@ main {
 .heading {
   padding: 30px 0px;
 }
+.heading h1 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #562eff;
+}
 .container {
   display: flex;
   justify-content: center;
@@ -76,8 +81,8 @@ main {
 .hero-playerbox {
   width: 900px;
   background: #ffffff;
-  margin-top: 30px;
   padding: 0 50px;
+  margin-top: 40px;
 }
 .hero-player-item {
   display: grid;
@@ -100,4 +105,30 @@ main {
 .empht-line {
   margin: 30px 0;
   opacity: 0.3;
+}
+
+/*---------------
+ blogs section start 
+----------- */
+.bolg-container-item {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-row-gap: 30px;
+  padding-bottom: 30px;
+}
+.blog-container-box {
+  width: 900px;
+  background: #ffffff;
+  padding: 0 50px;
+}
+.bolg-content {
+  display: flex;
+  align-items: center;
+}
+.bolg-content .blog-image img {
+  width: 177px;
+  height: 117px;
+}
+.blog-about {
+  padding: 0 20px;
 }
